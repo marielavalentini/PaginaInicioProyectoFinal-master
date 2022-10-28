@@ -1,0 +1,110 @@
+*{
+    font-family: georgia, serif;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+   background-color: rgb(240, 155, 44); 
+}
+header{
+    background-image: url("../images/tigretextura.webp");
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+#titulo{
+    position: absolute;
+    background: none;
+    color: rgb(252, 244, 233);
+    font-size: 150px;
+    padding-left: 30px;
+}
+p{
+    font-size: 20px;
+}
+#intro{
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+#info{
+display: flex;
+position: relative;
+justify-content: space-around;
+}
+#imagen{
+    position: absolute;
+    right: 40px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+#curiosidades{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 70px;
+    top: 10px;
+    justify-content: center;
+}
+#tit{
+    font-size: 30px;
+    justify-content: center;
+}
+.lista{
+    list-style: circle;
+    padding: 20px;
+}
+
+#extincion{
+    display: flex;
+}
+.foto{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.pieFoto{
+    display: flex;
+    flex-direction: column;
+}
+#boton{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    border: 2px black solid;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240, 155, 44);
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+a:hover {
+    font-style: italic;
+    transform: scale(1.1);
+}
+
+a{
+    color: black;
+}
+
+#body{
+    position: relative;
+}
+
+#foot{
+    position:absolute;
+    top: 890px;
+    width: 1325px;
+    padding: 10px;
+    background-color: rgb(233, 123, 21);
+    display: flex;
+    flex-direction:row;
+}
+/* #foot .col_pie {} */
+#foot .col_pie h4 { font-size:20px ; color: rgb(10, 10, 10); margin-left: 65px; }
+#foot .col_pie p { margin: 5px; padding-left: 3em; font-size: 15px; color: black;}

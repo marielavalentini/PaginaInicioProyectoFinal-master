@@ -1,0 +1,101 @@
+header img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 100px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+nav {
+    margin-bottom: 15px;
+}
+
+nav button {
+    width: 70px;
+    height: 30px;
+    
+}
+img:hover {filter: saturate(180%);}
+
+.homebttn {
+    text-decoration: none;
+    color: black;
+}
+header {
+    justify-content: space-evenly;
+    border: black solid 3px;
+    background-image: -webkit-image-set('https://img.freepik.com/free-photo/beautiful-shot-mountains-trees-covered-snow-fog_181624-17590.jpg?w=2000');
+
+}
+p {
+    background-color: aliceblue;
+}
+.descripcion {
+    margin-left: 10px;
+}
+header h1 {
+    text-align: center;
+}
+h3 {
+    border-style:groove;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+ul{
+    text-align: center;
+}
+
+.imagesContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+
+#amenaza {
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+
+}
+
+.amenaza {
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.subespecies {
+    justify-content: space-between;
+    margin-left: 100px;
+   
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;	
+}
+.distribucion {
+    margin-left: 50px;
+}
+
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    height: 50px;
+    
+
+
+}
+
+footer h4 {
+    margin-left: 15px;
+    
+}

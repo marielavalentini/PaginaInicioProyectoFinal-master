@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(108, 104, 104);
+    height: 150px;
+    border-radius: 20px;
+}
+
+h3{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#header{
+    border: 8px solid gold;
+    background-color: lightgray;
+    width: 500px;
+    height: 125px;
+    margin-left: 15px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    float:right;
+    border-radius: 20px;
+}
+
+#navegacion { background-color:rgb(187, 183, 183); padding: 25px 0px; font-size:x-large; border-radius: 20px; }
+
+.menu { width: 25%; }
+.menu a { margin: 0px 135px; color: black; }
+.menu a:hover { color: yellow; font-style: normal; }
+
+#carpinchoimg {
+    height: 186px;
+    margin-top: 53px;
+    margin-left: 50px;
+    margin-bottom: 59px;
+    float:left;
+    border: 8px solid gold;  
+    border-radius: 20px;
+}
+
+#descripcion{
+    color: khaki;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    float: right;
+    width: 80%;
+    margin-top: 7px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#lista{
+    color: khaki;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left:40px;
+    width: 50%;
+    padding: 5px;
+}
+
+.imagenPequena{
+    height: 300px;
+    width: 600px;
+}
+
+#carpinchoimg2 {
+    border: 8px solid gold;  
+    border-radius: 20px;
+    float: right; 
+    margin-left: none;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: gold;
+}
+
+footer{
+    background-color:rgb(187, 183, 183); 
+    height: 30px;
+    color: black;
+    padding: 25px 0px; 
+    font-style: italic;
+    border-radius: 20px;
+    clear: both;
+    display: flex; justify-content:space-evenly; align-items:center;
+}
